@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="css/home.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+.main{
+    width: 100%;
+    height: 600px;
+    background-image: url("img-home/aa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-color: #f8f8f8;
+	 margin-bottom:70px;
+}
+.view_all a{
+  text-decoration: none;
+  color: black;
+}
+.view_all a:hover{
+  color: #0392CC;
+}
+.pic_text:hover{
+  text-decoration: none;
+}
+.item-overlay .top{
+   text-decoration: none;
+}
+</style>
+
+
+</head>
+<body>
+
+
+
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">
+         <img src="img-home/logo1.png" height="100%"; alt="Logo Solodev">
+        </a>
+      
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+       
+      </div>
+    </div>
+  
+    <div id="navbar" class="navbar-collapse collapse navbar-right">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="tour.html" >Tour</a></li>
+          <li><a href="hotel.html">Hotel</a></li>
+          <li><a href="eat & drink.html">Eat & Drink</a></li>
+		  <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="gallery.html">Media Gallery</a></li>
+                            <li><a href="login.html">Log In</a></li>
+                            <li><a href="register.html">Register</a></li>
+                        </ul>
+                    </li>
+      </ul>
+        <ul class="social">
+		      <li><a  href="#mymodal" data-toggle="modal"><i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+			  <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+			 
+		    </ul>
+      </div>
+    </div><!--/.nav-collapse -->
+  </nav>
+</header>
+
+
+ <div class="modal fade" id="mymodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header ">
+                            <ul class="nav navbar-left">
+                                <li style="font-size: 20px;"> <b>Log In</b></li>
+                            </ul>
+                            <ul class="nav navbar-left">
+                                <li> <button class="close" style="margin-right: 5px;margin-left: 450px;" data-dismiss="modal"> &times;</button></li>
+                            </ul>
+                        </div>
+                        <div>
+                        <div class="modal-body">
+                            
+                            <button class="btn btn-lg btn-success btn-block"><i class="fa fa-facebook" style="float: left"><span style="margin-left: 100px;text-align: center;">Login With Facebook</span> </i></button>
+                            
+                            
+                            <button class="btn btn-lg btn-success btn-block"><i class="fa fa-envelope" style="float: left"> <span style="margin-left: 100px;text-align: center;">Login With Email</span></i></button>
+                            <div class="divider" style="text-align: center; height: 1px; margin: 30px 0 20px 0; background-color: #e1e8ed">
+                                <span>Or</span>
+                            </div>
+                            
+                            <form>
+                                <div class="form-group">
+                                    <label>
+                                        Email
+                                    </label>
+                                    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div>
+                                    
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>
+                                        Password
+                                    </label>
+                                    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="email" type="password" class="form-control" name="password" placeholder="password">
+  </div>
+                                    
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value=""> Remeber me
+                                    </label>
+                                </div>
+                            </form>
+                            
+                           
+                        </div>
+                            
+                            <div class="modal-footer justify-content-center " style="text-align:center;">
+                                <button class="btn btn-lg btn-block btn-danger " data-dismiss="modal">LogIn</button>
+                            </div>
+                        
+                        </div>
+                       
+                        <footer class="modal-footer " style="text-align: center;">
+                        	Creat New Account ?
+                                <br><br>
+                        	<p><a href="register.html" style="text-decoration: none;color: red;">SignUp</a></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+<div class="main">
+            <div class="carousel-caption">
+              <h1><b>BOOK UNIQUE EXPERIENCES</b></h1>
+              <p class="lead">Expolore top rated tours, hotels and restaurants around the world</p>
+              <a class="btn btn-danger" href="#">Plan</a>
+            </div>
+        </div>
+<br><br>
+			
+
+<div class="main2">
+		<div class=container-fluid>
+		<h2><b>Our Popular Tours</b></h2>
+		<p style="font-size:18px;color:gray;">Best Tourist Place</p>
+		<br>
+         <div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/1.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Arc Triomphe</p>
+        <div class="item-overlay top"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/2.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Notredam</p>
+        <div class="item-overlay top"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/3.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Versailles</p>
+        <div class="item-overlay top"></div>
+        </div>
+        </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/4.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Pompidue Museum</p>
+        <div class="item-overlay top"></div>
+        </div>
+      
+          </a>
+    </div>
+  </div>
+    </div>
+	<div class="view_all">
+<a href="tour.html">View all (193)  ></a>
+</div>
+<hr>
+	</div>
+ </div>
+<br><br><br><br>
+
+ <div class="main2">
+		<div class=container-fluid>
+		<h2><b>Popular Hotels and Accommodations</b></h2>
+		<p style="font-size:18px;color:gray;">Best Hotel & Accomodationst</p>
+		<br>
+         <div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/11.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Marriot Hotel</p>
+        <div class="item-overlay top"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/22.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Concorde Hotel</p>
+        <div class="item-overlay top"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/33.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Louvre Hotel</p>
+        <div class="item-overlay top"></div>
+        </div>
+        </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/44.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Park Yatt Hotel</p>
+        <div class="item-overlay top"></div>
+        </div>
+      
+          </a>
+    </div>
+  </div>
+    </div>
+	<div class="view_all">
+<a href="hotel.html">View all (193)  ></a>
+</div>
+<hr>
+	</div>
+ </div>
+ <br><br><br><br>
+
+ <div class="main2">
+		<div class=container-fluid>
+		<h2><b>Popular Restaurants</b></h2>
+		<p style="font-size:18px;color:gray;">Pride restaurants of this area</p>
+		<br>
+         <div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/111.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Pizza</p>
+        <div class="item-overlay top"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/222.jpeg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Fish Curry</p>
+        <div class="item-overlay top"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/333.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Mutton Masala</p>
+        <div class="item-overlay top"></div>
+        </div>
+        </a>
+    </div>
+  </div>
+             
+    <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+          <div class="item">
+        <img src="img-home/444.jpg" alt="image" style="width:100%;height:200px;">
+		<p class=pic_text>Thai Soup</p>
+        <div class="item-overlay top"></div>
+        </div>
+          </a>
+    </div>
+  </div>
+    </div>
+	<div class="view_all">
+<a href="eat & drink.html">View all (193)  ></a>
+</div>
+<hr>
+	</div>
+ </div>
+ 
+  <br><br><br><br><br><br>
+
+
+
+<div class="counter">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3  xol-xs-12">
+                        <div class="employes">
+                            <p class="counter-count">879</p>
+                            <p class="employee-p">Employee</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-3  xol-xs-12">
+                        <div class="customer">
+                            <p class="counter-count">1001</p>
+                            <p class="customer-p">Customer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-3  xol-xs-12">
+                        <div class="design">
+                            <p class="counter-count">1500</p>
+                            <p class="design-p">Hotel</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-3  xol-xs-12">
+                        <div class="order">
+                            <p class="counter-count">1200</p>
+                            <p class="order-p">Order</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+<div>
+        <div class="container flash">
+        	<div class="row">
+        	<div class="col-md-4">
+        		<div class="box">
+
+        			<i class="fa fa-facebook"></i>
+        			<h4>Need Help? Contact us</h4>
+        			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+        		</div>
+        	</div>
+
+        	<div class="col-md-4">
+        		<div class="box">
+        			<i class="fa fa-instagram"></i>
+        			<h4>Need Help? Contact us</h4>
+        			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+        		</div>
+        	</div>
+
+
+        	<div class="col-md-4">
+        		<div class="box">
+        			<i class="fa fa-twitter"></i>
+        			<h4>Need Help? Contact us</h4>
+        			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+        		</div>
+        	</div>
+        </div>
+        </div>
+
+</div>
+
+<footer>
+	
+	<div class="container ">
+		<div class="row" style="margin-top: 30px;">
+			<div class="col-lg-5 col-md-12 ">
+				<p style="margin-bottom: 30px;"><img src="img-home/logo1.png" width="150" height="36" data-retina="true" alt="logo"></p>
+				<p style="margin-bottom: 30px;">Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
+				<div class="follow">
+					<ul>
+							<li>Follow us</li>
+							<li><a href="#0"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#0"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#0"><i class="fa fa-google"></i></a></li>
+							<li><a href="#0"><i class="fa fa-envelope"></i></a></li>
+							<li><a href="#0"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 ml-lg-auto">
+				<div class="use">
+					<h5><b>Useful links</b></h5>
+					<ul class="links">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Register</a></li>
+						<li><a href="#">News &amp; Events</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-6">
+					<div class="use">
+					<div class="contact">
+					<h5><b>Contact with Us</b></h5>
+					<ul class="contacts">
+						<li><a href="#"><i class="fa fa-mobile"></i> 01909848408</a></li>
+						<li><a href="#"><i class="fa fa-envelope"></i> moinulhasan.4960@gmail.com</a></li>
+					</ul>
+					
+				</div>
+			</div>
+			</div>
+		</div>
+		<hr>
+	<h4 style="text-align: center;">all copyright@mig29</h4>
+	</div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript">
+	
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 1){  
+    $('header').addClass("sticky");
+  }
+  else {
+    $('header').removeClass("sticky");
+  }
+});
+
+
+    
+         $('.counter-count').each(function () {
+        $(this).prop('counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+body{
+      background-image: url("fanush.jpg");
+      background-size: cover;
+      background-repeat: repeat-x;
+      background-attachment: fixed;          
+      }
+      header{
+   
+    
+     left: 0;
+   
+    width: 100%;
+    
+    
+}
+.one{
+  width: 100%;
+ background-color: white;
+  color: black;
+}
+.main-menu-area{
+  margin-left: 5%;
+  margin-right: 5%;
+ 
+}
+
+.logo{
+    margin-top: 18px; 
+    text-decoration: none;
+}
+.logo a{
+    text-decoration: none;
+    color: #444;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700px;
+   
+    
+}
+.logo a:hover{
+     text-decoration: none;
+}
+.main-menu{
+    
+}
+.main-menu ul{}
+.main-menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.main-menu ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700px;
+    color: #444;
+    padding: 30px 20px;
+    display: block;
+}
+.main-menu ul li a:hover{
+    text-decoration: none;
+    color: #FFD504;
+}
+
+
+.main{
+    width: 100%;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-color: #f8f8f8;
+}
+
+      .container{
+          float:left;
+          background-color: white;
+          width:auto;
+          height:auto;
+          position: relative;
+          margin-top: 2px;
+          margin-left: 30%;
+      }
+      
+      .logo-img{
+          height:100px;
+          width:400px;
+          padding:30px 45px;
+      }
+      
+      .body_part{
+          padding-left:45px;
+          padding-right:45px;
+      }
+      .body_part h4{
+          font-family: Verdana;
+          color:gray;
+      }
+      
+      .place{
+          width:400px;
+      }
+      
+      .register{
+          text-align: center;
+          display: block;
+          margin-bottom: 20px;
+      }
+      .register a{
+          color: white;
+          background-color: tomato;
+          padding: 20px 80px;
+          border-radius: 25px;
+          font-size: 15px;
+          font-weight: bold;
+          font-family: Verdana;
+      }
+      
+      .register a:hover{
+          text-decoration: none;
+          transition: 0.5s;
+          background-color: blue;
+      }
+      
+      .have_account{
+          color:gray;
+          text-align: center;
+          font-size: 15px;
+      }
+      
+      .have_account a{
+          color:red;
+      }
+      .have_account a:hover{
+          color:green;
+          text-decoration: none;
+      }
